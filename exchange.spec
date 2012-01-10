@@ -61,8 +61,6 @@ NOCONFIGURE=yes ./autogen.sh
 rm -rf %{buildroot}
 %makeinstall_std
 
-%find_lang %{name}
-
 %files -n %{libname}
 %{_libdir}/*.so.%{major}*
 
