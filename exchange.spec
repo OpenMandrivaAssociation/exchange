@@ -10,7 +10,7 @@ Version:	0.0.0.002
 Release:	0.%{git}.1
 License:	GPLv2
 Group:		System/Libraries
-URL:		http://enlightenment.org/
+URL:		https://git.enlightenment.org/website
 Source0: 	%{name}-%{version}.%{git}.tar.xz
 
 BuildRequires:	edje
